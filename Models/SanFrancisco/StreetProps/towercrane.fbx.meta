@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: fde9c3c49d2d73c46a08fcf47261b19e
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: crane_base
+  - first:
+      1: 100002
+    second: crane_mast
+  - first:
+      1: 100004
+    second: cranearm
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: towercrane_hook
+  - first:
+      1: 100010
+    second: towercranearm_slide
+  - first:
+      4: 400000
+    second: crane_base
+  - first:
+      4: 400002
+    second: crane_mast
+  - first:
+      4: 400004
+    second: cranearm
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: towercrane_hook
+  - first:
+      4: 400010
+    second: towercranearm_slide
+  - first:
+      23: 2300000
+    second: crane_base
+  - first:
+      23: 2300002
+    second: crane_mast
+  - first:
+      23: 2300004
+    second: cranearm
+  - first:
+      23: 2300006
+    second: towercrane_hook
+  - first:
+      23: 2300008
+    second: towercranearm_slide
+  - first:
+      33: 3300000
+    second: crane_base
+  - first:
+      33: 3300002
+    second: crane_mast
+  - first:
+      33: 3300004
+    second: cranearm
+  - first:
+      33: 3300006
+    second: towercrane_hook
+  - first:
+      33: 3300008
+    second: towercranearm_slide
+  - first:
+      43: 4300000
+    second: crane_mast
+  - first:
+      43: 4300002
+    second: towercrane_hook
+  - first:
+      43: 4300004
+    second: towercranearm_slide
+  - first:
+      43: 4300006
+    second: cranearm
+  - first:
+      43: 4300008
+    second: crane_base
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabglass
+    second: {fileID: 2100000, guid: 6233b95a31dff0649a434b4cc0da083d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: towercrane
+    second: {fileID: 2100000, guid: 1b3247718d1814143838f5b21fdd5448, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: towercrane_base
+    second: {fileID: 2100000, guid: e38825ec8163b7342bdaf725cd8dd54d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: towercrane_hook
+    second: {fileID: 2100000, guid: 15c92777169910740963e1f0dc04ffcc, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - FocalLength
+    - FilmWidth
+    - FilmHeight
+    - NearPlane
+    - FarPlane
+    - CameraProjectionType
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: f4c08a75e03cf784985071e8013038f5
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: 1stfolsomB:bricksf14
+  - first:
+      1: 100004
+    second: 1stfolsomB:doorf14
+  - first:
+      1: 100006
+    second: 1stfolsomB:roof
+  - first:
+      1: 100008
+    second: 1stfolsomB:windowf14
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: 1stfolsomB:bricksf14
+  - first:
+      4: 400004
+    second: 1stfolsomB:doorf14
+  - first:
+      4: 400006
+    second: 1stfolsomB:roof
+  - first:
+      4: 400008
+    second: 1stfolsomB:windowf14
+  - first:
+      23: 2300000
+    second: 1stfolsomB:bricksf14
+  - first:
+      23: 2300002
+    second: 1stfolsomB:doorf14
+  - first:
+      23: 2300004
+    second: 1stfolsomB:roof
+  - first:
+      23: 2300006
+    second: 1stfolsomB:windowf14
+  - first:
+      33: 3300000
+    second: 1stfolsomB:bricksf14
+  - first:
+      33: 3300002
+    second: 1stfolsomB:doorf14
+  - first:
+      33: 3300004
+    second: 1stfolsomB:roof
+  - first:
+      33: 3300006
+    second: 1stfolsomB:windowf14
+  - first:
+      43: 4300000
+    second: 1stfolsomB:bricksf14
+  - first:
+      43: 4300002
+    second: 1stfolsomB:windowf14
+  - first:
+      43: 4300004
+    second: 1stfolsomB:roof
+  - first:
+      43: 4300006
+    second: 1stfolsomB:doorf14
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1stfolsomB_bricksf14F
+    second: {fileID: 2100000, guid: 28a20631dd192ec4797042e6bd85d965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1stfolsomB_doorf14F
+    second: {fileID: 2100000, guid: 875938ee19b193e499289ae00130d474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1stfolsomB_roofF
+    second: {fileID: 2100000, guid: 66e639b57a3f4dc4190bac81b3abfb90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1stfolsomB_windowf14F
+    second: {fileID: 2100000, guid: 3fae9fbe37613714b91cf1f69cb94f38, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - FocalLength
+    - FilmWidth
+    - FilmHeight
+    - NearPlane
+    - FarPlane
+    - CameraProjectionType
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
