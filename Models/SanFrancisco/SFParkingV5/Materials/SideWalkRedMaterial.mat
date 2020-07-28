@@ -23,7 +23,7 @@ Material:
   m_Name: SideWalkRedMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 82b0b03a7ce96ac43b33259f3e9612e9,
     type: 3}
-  m_ShaderKeywords: _NORMALMAP _NORMALMAP_TANGENT_SPACE
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -245,10 +245,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_18B47B70: 1
+    - Vector1_18B47B70: 0.25
     - Vector1_1C1D4CFA: 0.25
     - Vector1_7F305CBD: 0
-    - Vector1_8D5F934C: 0
+    - Vector1_8D5F934C: 2
     - Vector1_B011: 0
     - Vector1_F77B9255: 0
     - _AORemapMax: 1
