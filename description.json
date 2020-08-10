@@ -1,5 +1,5 @@
 {
-  "name": "San Francisco",
+  "name": "SanFrancisco",
   "accessType": "public",
   "description": "The San Francisco map is a re-creation of a section of SOMA San Francisco around Market Street. It features many traffic light intersections and multi-lane streets.",
   "licenseName": "LG Simulator",
@@ -10,6 +10,9 @@
     },
     {
       "name": "digital-twin"
+    },
+    {
+      "name": "Test"
     },
     {
       "name": "city"
