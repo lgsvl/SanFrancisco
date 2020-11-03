@@ -3,7 +3,37 @@ guid: d28505ed7c1d88441b10c34a4130aa35
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CrossWalkMaterial
+    second: {fileID: 2100000, guid: 70e81c5fcdc9c7645a56fca2de535a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asphaltMaterial
+    second: {fileID: 2100000, guid: c91b2a304aa995d408d965ca25f3f2fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doubleyellowMaterial
+    second: {fileID: 2100000, guid: 4fd721ea9c55f5248af6e06c231a8c82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doubleyellowintersectionMaterial
+    second: {fileID: 2100000, guid: 0460473d37d3f6e42bb23e231d5dbf0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oneway4laneMaterial
+    second: {fileID: 2100000, guid: a90f4ae1ca8ea0d4eb4c86e3fbdfbee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oneway4laneintersection1
+    second: {fileID: 2100000, guid: bdaaedb78df7e194e917a4297756c85e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
