@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3406108011581504944}
   - component: {fileID: 3406108011582472048}
   - component: {fileID: 3406108011580565358}
+  - component: {fileID: 2521252883071284548}
   m_Layer: 0
   m_Name: bikeblue
   m_TagString: Car
@@ -26,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3406108011580531120}
-  m_LocalRotation: {x: 0.022726791, y: -0.002129841, z: -0.0932819, w: 0.9953781}
+  m_LocalRotation: {x: 0.022723366, y: -0.0021268553, z: -0.09328561, w: 0.9953778}
   m_LocalPosition: {x: 1100.265, y: 10.61, z: 395.98}
-  m_LocalScale: {x: 0.014, y: 0.014, z: 0.014}
+  m_LocalScale: {x: 0.014000004, y: 0.014, z: 0.014000008}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,6 +56,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -66,6 +68,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -91,3 +94,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 151.55002, y: 86.93212, z: 5.767312}
   m_Center: {x: 0.0019513019, y: 43.544804, z: 0.31809282}
+--- !u!208 &2521252883071284548
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406108011580531120}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 75.657005, y: 43.482002, z: 30.651001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.023000002, y: 43.531002, z: 0.004}
+  m_TimeToStationary: 0.5

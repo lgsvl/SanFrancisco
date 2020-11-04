@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4254268330938023344}
   - component: {fileID: 8635506660939414427}
   - component: {fileID: 4841203667285571005}
+  - component: {fileID: 421267592452559160}
   m_Layer: 0
   m_Name: SFTreeKeyakiGreen
   m_TagString: Vegetation
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 959666226330062755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 821.29, y: 10.37, z: 360.33}
-  m_LocalScale: {x: 2.4038577, y: 2.4038577, z: 2.4038577}
+  m_LocalScale: {x: 2.0454645, y: 2.0454645, z: 2.0454645}
   m_Children:
   - {fileID: 3439706978677791436}
   - {fileID: 2720114420392102132}
@@ -76,6 +77,22 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4758628982333668545}
   m_Enabled: 1
+--- !u!208 &421267592452559160
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959666226330062755}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.25, y: 1, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.022, y: 0.24, z: 0.228}
+  m_TimeToStationary: 0.5
 --- !u!1 &1410364102586486323
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,6 +147,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -141,6 +159,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -207,6 +226,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -219,6 +239,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -285,6 +306,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -297,6 +319,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

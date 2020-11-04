@@ -54,6 +54,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -66,6 +67,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -132,6 +134,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -144,6 +147,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -210,6 +214,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -221,6 +226,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -244,6 +250,7 @@ GameObject:
   - component: {fileID: 5625048821016988232}
   - component: {fileID: 201950695658851427}
   - component: {fileID: 3906146508267602501}
+  - component: {fileID: 802009018122797011}
   m_Layer: 0
   m_Name: SFTreeKeyakiYellow
   m_TagString: Vegetation
@@ -260,7 +267,7 @@ Transform:
   m_GameObject: {fileID: 8668138187524438107}
   m_LocalRotation: {x: 0, y: 0.71995795, z: 0, w: 0.69401777}
   m_LocalPosition: {x: 2263.8132, y: 9.9376, z: 1124.4689}
-  m_LocalScale: {x: 2.5339065, y: 2.5339065, z: 2.5339065}
+  m_LocalScale: {x: 1.3543142, y: 1.3543142, z: 1.3543142}
   m_Children:
   - {fileID: 6531989525293837620}
   - {fileID: 5811274366168612620}
@@ -309,3 +316,19 @@ LODGroup:
     renderers:
     - renderer: {fileID: 3967681444575431481}
   m_Enabled: 1
+--- !u!208 &802009018122797011
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668138187524438107}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.25, y: 1, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.022, y: 0.24, z: 0.228}
+  m_TimeToStationary: 0.5

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33337693028132884}
   - component: {fileID: 23935536431415480}
   - component: {fileID: 65690916414634856}
+  - component: {fileID: 6141593222950104327}
   m_Layer: 12
   m_Name: Mailbox
   m_TagString: Obstacle
@@ -55,6 +56,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -66,6 +68,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -91,3 +94,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7347014, y: 1.5202521, z: 0.7520591}
   m_Center: {x: 0.00019912422, y: 0.7601753, z: -0.000000014901161}
+--- !u!208 &6141593222950104327
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391292406021966}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.367, y: 0.76000005, z: 0.37600002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.76000005, z: 0}
+  m_TimeToStationary: 0.5

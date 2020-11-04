@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6944598540376007783}
+  - component: {fileID: 5091332023554837678}
   m_Layer: 0
   m_Name: diningtable_small
   m_TagString: Untagged
@@ -55,6 +56,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -66,6 +68,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -91,6 +94,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.65442455, y: 0.7756418, z: 0.7196822}
   m_Center: {x: 0.0003170967, y: 0.0016008917, z: 0.35945612}
+--- !u!208 &5091332023554837678
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.32700002, y: 0.388, z: 0.36}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.001, y: 0.002, z: 0.35900003}
+  m_TimeToStationary: 0.5
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,6 +122,7 @@ GameObject:
   - component: {fileID: 3300002}
   - component: {fileID: 2300002}
   - component: {fileID: 7157878942375136579}
+  - component: {fileID: 2644012261618585245}
   m_Layer: 0
   m_Name: chairwood
   m_TagString: Untagged
@@ -146,6 +166,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -157,6 +178,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -182,6 +204,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4276421, y: 0.41268972, z: 0.97216815}
   m_Center: {x: -0.02502685, y: 0.0024037813, z: 0.48793712}
+--- !u!208 &2644012261618585245
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.21400002, y: 0.20600002, z: 0.48600003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.025, y: 0.002, z: 0.48800004}
+  m_TimeToStationary: 0.5
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +232,7 @@ GameObject:
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
   - component: {fileID: 132571480174583932}
+  - component: {fileID: 5819375717253625282}
   m_Layer: 0
   m_Name: chairwood
   m_TagString: Untagged
@@ -237,6 +276,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -248,6 +288,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -273,6 +314,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.42764232, y: 0.41269, z: 0.97216827}
   m_Center: {x: -0.025026862, y: 0.0024041126, z: 0.48793712}
+--- !u!208 &5819375717253625282
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.21400002, y: 0.20600002, z: 0.48600003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.025, y: 0.002, z: 0.48800004}
+  m_TimeToStationary: 0.5
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
