@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1377883582669063996}
   - component: {fileID: 1377883582667965948}
   - component: {fileID: 1377883582670265746}
-  - component: {fileID: 4221489395173559627}
+  - component: {fileID: 510625372}
   m_Layer: 0
   m_Name: bikegray
   m_TagString: Car
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 151.55, y: 86.93209, z: 10.488615}
   m_Center: {x: 0.0039067836, y: 43.542324, z: 0.1329845}
---- !u!208 &4221489395173559627
+--- !u!208 &510625372
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

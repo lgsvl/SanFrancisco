@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33479765206082938}
   - component: {fileID: 23109757873012094}
   - component: {fileID: 65352142016757476}
-  - component: {fileID: 7450955153730122749}
+  - component: {fileID: 1113664588}
   m_Layer: 12
   m_Name: TrashCan
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.72000015, y: 1.3067174, z: 0.72000045}
   m_Center: {x: 0.000000029802322, y: 0.6652634, z: -0.000000059604645}
---- !u!208 &7450955153730122749
+--- !u!208 &1113664588
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33192697838217712}
   - component: {fileID: 23973106540956802}
   - component: {fileID: 136399271785927648}
-  - component: {fileID: 1125859115938203312}
+  - component: {fileID: 766692253033076406}
   m_Layer: 12
   m_Name: AdsPillar
   m_TagString: Obstacle
@@ -95,7 +95,7 @@ CapsuleCollider:
   m_Height: 6
   m_Direction: 1
   m_Center: {x: -0.000000059604645, y: 2, z: 0.00000011920929}
---- !u!208 &1125859115938203312
+--- !u!208 &766692253033076406
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,7 +107,7 @@ NavMeshObstacle:
   m_Shape: 0
   m_Extents: {x: 1.062, y: 2.492, z: 1.062}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 2.492, z: 0}
   m_TimeToStationary: 0.5

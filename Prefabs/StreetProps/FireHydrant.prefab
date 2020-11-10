@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33909200401036796}
   - component: {fileID: 23281738262407902}
   - component: {fileID: 65549551686434680}
-  - component: {fileID: 2747154721691302878}
+  - component: {fileID: 982206947}
   m_Layer: 12
   m_Name: FireHydrant
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.39010203, y: 0.72735566, z: 0.3386506}
   m_Center: {x: 0, y: 0.36369422, z: 0}
---- !u!208 &2747154721691302878
+--- !u!208 &982206947
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 3850171170934813110}
   - component: {fileID: 3025826866841286228}
   - component: {fileID: 551593480810459892}
-  - component: {fileID: 7501113325170797197}
+  - component: {fileID: 8807592749980454839}
   m_Layer: 0
   m_Name: Planter
   m_TagString: Obstacle
@@ -126,7 +126,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!208 &7501113325170797197
+--- !u!208 &8807592749980454839
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 10, y: 0.29500002, z: 10}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.29500002, z: 0}
   m_TimeToStationary: 0.5
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 7751968050728314005}
   - component: {fileID: 7383434149483691556}
   - component: {fileID: 3727535979351681334}
-  - component: {fileID: 1087162503225594787}
+  - component: {fileID: 3933297300861196867}
   m_Layer: 0
   m_Name: PlanterGrass
   m_TagString: Vegetation
@@ -222,7 +222,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!208 &1087162503225594787
+--- !u!208 &3933297300861196867
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,7 +234,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 9.5, y: 0.17600001, z: 9.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.76500005, z: 0}
   m_TimeToStationary: 0.5

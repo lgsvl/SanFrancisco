@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5402545012949249480}
   - component: {fileID: 5402545012950216456}
   - component: {fileID: 5402545012948318054}
-  - component: {fileID: 2271003373759246388}
+  - component: {fileID: 376852190}
   m_Layer: 0
   m_Name: bikered
   m_TagString: Car
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 151.55005, y: 86.932106, z: 15.188972}
   m_Center: {x: 0.007816724, y: 43.544273, z: 1.946541}
---- !u!208 &2271003373759246388
+--- !u!208 &376852190
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

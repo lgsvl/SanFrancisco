@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6944598540376007783}
-  - component: {fileID: 5091332023554837678}
+  - component: {fileID: 673876000567805540}
   m_Layer: 0
   m_Name: diningtable_small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 83
+  m_StaticEditorFlags: 91
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.65442455, y: 0.7756418, z: 0.7196822}
   m_Center: {x: 0.0003170967, y: 0.0016008917, z: 0.35945612}
---- !u!208 &5091332023554837678
+--- !u!208 &673876000567805540
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,7 @@ NavMeshObstacle:
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0.001, y: 0.002, z: 0.35900003}
+  m_Center: {x: 0, y: 0.001, z: 0.35900003}
   m_TimeToStationary: 0.5
 --- !u!1 &100002
 GameObject:
@@ -122,13 +122,13 @@ GameObject:
   - component: {fileID: 3300002}
   - component: {fileID: 2300002}
   - component: {fileID: 7157878942375136579}
-  - component: {fileID: 2644012261618585245}
+  - component: {fileID: 673876000567805550}
   m_Layer: 0
   m_Name: chairwood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 83
+  m_StaticEditorFlags: 91
   m_IsActive: 1
 --- !u!4 &400002
 Transform:
@@ -204,7 +204,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4276421, y: 0.41268972, z: 0.97216815}
   m_Center: {x: -0.02502685, y: 0.0024037813, z: 0.48793712}
---- !u!208 &2644012261618585245
+--- !u!208 &673876000567805550
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -232,13 +232,13 @@ GameObject:
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
   - component: {fileID: 132571480174583932}
-  - component: {fileID: 5819375717253625282}
+  - component: {fileID: 673876000567805545}
   m_Layer: 0
   m_Name: chairwood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 83
+  m_StaticEditorFlags: 91
   m_IsActive: 1
 --- !u!4 &400004
 Transform:
@@ -314,7 +314,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.42764232, y: 0.41269, z: 0.97216827}
   m_Center: {x: -0.025026862, y: 0.0024041126, z: 0.48793712}
---- !u!208 &5819375717253625282
+--- !u!208 &673876000567805545
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -328,7 +328,7 @@ NavMeshObstacle:
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: -0.025, y: 0.002, z: 0.48800004}
+  m_Center: {x: -0.025, y: 0.003, z: 0.48800004}
   m_TimeToStationary: 0.5
 --- !u!1 &100006
 GameObject:
@@ -344,7 +344,7 @@ GameObject:
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 83
+  m_StaticEditorFlags: 91
   m_IsActive: 1
 --- !u!4 &400006
 Transform:
@@ -355,7 +355,7 @@ Transform:
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 373.8097, y: 6.8537455, z: 6.2633057}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_LocalScale: {x: 1.2499999, y: 1.25, z: 1.2499999}
   m_Children:
   - {fileID: 400002}
   - {fileID: 400004}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33240053745399436}
   - component: {fileID: 23532623296645366}
   - component: {fileID: 65253536604098200}
-  - component: {fileID: 3144136035805295024}
+  - component: {fileID: 1730387842}
   m_Layer: 12
   m_Name: TrafficCone
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.30861956, y: 0.50121766, z: 0.30861953}
   m_Center: {x: 0.000029802322, y: 0.2506089, z: 0.000000029802322}
---- !u!208 &3144136035805295024
+--- !u!208 &1730387842
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

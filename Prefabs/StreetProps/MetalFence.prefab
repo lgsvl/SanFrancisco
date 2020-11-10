@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33721617118170880}
   - component: {fileID: 23782739853624486}
   - component: {fileID: 65172625550993030}
-  - component: {fileID: 8549766599094518205}
+  - component: {fileID: 1064163812}
   m_Layer: 12
   m_Name: MetalFence
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9663098, y: 1.311883, z: 0.086602546}
   m_Center: {x: 0.052005976, y: 0.6556604, z: -0.0000000037252903}
---- !u!208 &8549766599094518205
+--- !u!208 &1064163812
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

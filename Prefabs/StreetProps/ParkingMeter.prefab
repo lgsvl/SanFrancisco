@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33985238562991914}
   - component: {fileID: 23042499067773858}
   - component: {fileID: 65172990577150334}
-  - component: {fileID: 3978202030427499119}
+  - component: {fileID: 1948122813}
   m_Layer: 12
   m_Name: ParkingMeter
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19490899, y: 1.3540673, z: 0.2250602}
   m_Center: {x: -0.00000040233135, y: 0.6770345, z: 0.0000009164214}
---- !u!208 &3978202030427499119
+--- !u!208 &1948122813
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

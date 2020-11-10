@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2071266547170103532}
   - component: {fileID: 2071266547168973356}
   - component: {fileID: 183143739147027557}
-  - component: {fileID: 8695793524630188427}
+  - component: {fileID: 612693673}
   m_Layer: 0
   m_Name: officecontainer
   m_TagString: Building
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 11.832796, y: 4.8768606, z: 3.7126188}
   m_Center: {x: 1.2972021, y: -1.2192302, z: 0.0039076805}
---- !u!208 &8695793524630188427
+--- !u!208 &612693673
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

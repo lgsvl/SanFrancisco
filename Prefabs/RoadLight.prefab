@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 5124666004017401639}
   - component: {fileID: 3300763518079999270}
   - component: {fileID: 6257256956661090939}
-  - component: {fileID: 1306738375649680067}
+  - component: {fileID: 8537187629983737569}
   m_Layer: 0
   m_Name: RoadLight
   m_TagString: Untagged
@@ -311,7 +311,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.25, z: 10}
   m_Center: {x: 0, y: 0, z: 4}
---- !u!208 &1306738375649680067
+--- !u!208 &8537187629983737569
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
