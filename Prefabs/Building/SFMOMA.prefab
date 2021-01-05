@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2811020861711247078}
   - component: {fileID: 144956004828319283}
   - component: {fileID: 6263790459127139793}
+  - component: {fileID: 4343294236804169618}
   m_Layer: 12
   m_Name: SFMOMA
   m_TagString: Building
@@ -30,13 +31,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963388574216750}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1197.6133, y: 24.5, z: 662.978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
 --- !u!33 &33069132250603112
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -59,12 +60,13 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 1ffebee43a6794742857e41ca4b1665e, type: 2}
   - {fileID: 2100000, guid: 89ee0875b2a49d745b51231f45a183f7, type: 2}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a2cbeabac402605499ce3f2da8740458, type: 2}
   - {fileID: 2100000, guid: 83ca00f692491a04a9ecc0dc5bbae285, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -73,6 +75,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -150,3 +153,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.885254, y: 10.716098, z: 14.091432}
   m_Center: {x: 40.15947, y: -1.3551731, z: -7.186071}
+--- !u!208 &4343294236804169618
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963388574216750}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 42.134003, y: 32.278, z: 14.232}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.379, y: 0, z: 0}
+  m_TimeToStationary: 0.5

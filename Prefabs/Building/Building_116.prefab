@@ -42,6 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4989022234677654}
   - component: {fileID: 65168177308422294}
+  - component: {fileID: 2123567684}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -76,6 +77,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 39.8, y: 87.25, z: 27.5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!208 &2123567684
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282402225839542}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 19.9, y: 43.625, z: 13.75}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1853652059290752
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,7 +116,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853652059290752}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1664.5409, y: 9.39, z: 1485.2031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -119,7 +136,7 @@ GameObject:
   - component: {fileID: 255512907588066766}
   - component: {fileID: 6658070876536296762}
   - component: {fileID: 8219546831179407907}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,6 +179,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -173,6 +191,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -196,7 +215,7 @@ GameObject:
   - component: {fileID: 4464095391030569348}
   - component: {fileID: 1871630355322748027}
   - component: {fileID: 118111284320008371}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Roofpanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,6 +258,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -250,6 +270,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

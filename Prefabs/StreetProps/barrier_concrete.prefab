@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 161508909}
-  - component: {fileID: 522110189}
+  - component: {fileID: 3721386540965196652}
   m_Layer: 0
   m_Name: barrier_concrete
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.5433083, y: 0.7795283, z: 0.894005}
   m_Center: {x: -0.00006102824, y: 0.000000015972066, z: 0.11601663}
---- !u!208 &522110189
+--- !u!208 &3721386540965196652
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

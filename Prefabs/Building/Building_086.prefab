@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 65976003261914744}
   - component: {fileID: 5996014960447455866}
   - component: {fileID: 7141668175474872067}
+  - component: {fileID: 61978317}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -106,6 +107,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 62.490536, y: 39.80968, z: 18.78278}
   m_Center: {x: -0.37760532, y: -1.4124088, z: 27.95943}
+--- !u!208 &61978317
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131289191838518}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 31.687164, y: 19.90484, z: 37.55}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: -1.4124088, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1532957443303400
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +146,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532957443303400}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000041366306}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.00000028088027}
   m_LocalPosition: {x: 1972.1919, y: 10.027206, z: 1492.2167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -137,7 +154,7 @@ Transform:
   - {fileID: 4825233480490510}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 0}
 --- !u!1 &78402498095744888
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,7 +166,7 @@ GameObject:
   - component: {fileID: 5404054965054469258}
   - component: {fileID: 7871641982260536135}
   - component: {fileID: 7053304762101767733}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window08EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,6 +209,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -203,6 +221,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -226,7 +245,7 @@ GameObject:
   - component: {fileID: 34643317932385613}
   - component: {fileID: 7129775782111211061}
   - component: {fileID: 8770706007625891627}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window08EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,6 +288,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -280,6 +300,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -303,7 +324,7 @@ GameObject:
   - component: {fileID: 2958564743607905615}
   - component: {fileID: 937896659838449840}
   - component: {fileID: 1539901738422664312}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Roofpanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,6 +367,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -357,6 +379,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -380,7 +403,7 @@ GameObject:
   - component: {fileID: 4203697966724406299}
   - component: {fileID: 7020096508413309934}
   - component: {fileID: 4292155049633154536}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Brick02Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +446,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -434,6 +458,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038605001622754}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1732.2107, y: 9.384216, z: 1162.2134}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -74,6 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4607866865203050}
   - component: {fileID: 65105881150478710}
+  - component: {fileID: 1319337587}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -108,6 +109,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 77.21774, y: 22.449999, z: 50.505524}
   m_Center: {x: 0.0005054442, y: 0, z: 0.10755157}
+--- !u!208 &1319337587
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985806505994942}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 38.60887, y: 11.224999, z: 25.252762}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.0005054442, y: 0, z: 0.10755157}
+  m_TimeToStationary: 0.5
 --- !u!1 &4859242440182575844
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +136,7 @@ GameObject:
   - component: {fileID: 2387557537042723678}
   - component: {fileID: 371744956147082913}
   - component: {fileID: 2121886345079218793}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Roofpanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,6 +179,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -173,6 +191,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -196,7 +215,7 @@ GameObject:
   - component: {fileID: 7329566545162227687}
   - component: {fileID: 1549018400492987954}
   - component: {fileID: 3578852939670251639}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise03TilingX_5EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,6 +258,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -250,6 +270,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

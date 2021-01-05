@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33337693028132884}
   - component: {fileID: 23935536431415480}
   - component: {fileID: 65690916414634856}
-  - component: {fileID: 1178130624}
+  - component: {fileID: 1226859389634639808}
   m_Layer: 12
   m_Name: Mailbox
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7347014, y: 1.5202521, z: 0.7520591}
   m_Center: {x: 0.00019912422, y: 0.7601753, z: -0.000000014901161}
---- !u!208 &1178130624
+--- !u!208 &1226859389634639808
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -57,7 +57,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119898580163254}
-  m_LocalRotation: {x: -0, y: 0.95287937, z: -0, w: 0.3033495}
+  m_LocalRotation: {x: 0, y: 0.95287883, z: 0, w: 0.30335125}
   m_LocalPosition: {x: 1263.6218, y: 10.193636, z: 778.14246}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -65,7 +65,7 @@ Transform:
   - {fileID: 4017888750009534}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 144.682, z: 0}
 --- !u!1 &1303986841672708
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,6 +76,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4017888750009534}
   - component: {fileID: 65934410685733836}
+  - component: {fileID: 267544696}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -110,6 +111,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.4, y: 10.689672, z: 12.572291}
   m_Center: {x: 0.0000000019654043, y: -0.019835949, z: -0.06385421}
+--- !u!208 &267544696
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303986841672708}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.2, y: 5.344836, z: 6.2861457}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.0000000019654043, y: -0.019835949, z: -0.06385421}
+  m_TimeToStationary: 0.5
 --- !u!1 &4274100640508515563
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +138,7 @@ GameObject:
   - component: {fileID: 7852105996120994034}
   - component: {fileID: 3437861996741084453}
   - component: {fileID: 1286207618808027947}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Brick08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,6 +181,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -175,6 +193,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -198,7 +217,7 @@ GameObject:
   - component: {fileID: 5968405055253644821}
   - component: {fileID: 5968405055257069107}
   - component: {fileID: 5968405055256069363}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Building_052:roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,6 +260,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -252,6 +272,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -275,7 +296,7 @@ GameObject:
   - component: {fileID: 3823784215603215501}
   - component: {fileID: 5650013859451673473}
   - component: {fileID: 1247366742063640043}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window04EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,6 +339,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -329,6 +351,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -352,7 +375,7 @@ GameObject:
   - component: {fileID: 3249148212440403982}
   - component: {fileID: 2516264176743554016}
   - component: {fileID: 3066540348954166896}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window04EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,6 +418,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -406,6 +430,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065863156634398}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1668.3778, y: 10.069824, z: 1361.341}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -74,6 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4375180875566540}
   - component: {fileID: 65366623683100578}
+  - component: {fileID: 85147818}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -108,6 +109,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 33.9, y: 144.25, z: 31.8}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!208 &85147818
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434529439462598}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 16.95, y: 72.125, z: 15.9}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &10098858100129694
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +136,7 @@ GameObject:
   - component: {fileID: 7092836762406927908}
   - component: {fileID: 5072226959800724443}
   - component: {fileID: 6791124746442813203}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Roofpanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,6 +179,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -173,6 +191,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -196,7 +215,7 @@ GameObject:
   - component: {fileID: 8035070377471835067}
   - component: {fileID: 2595294091320789453}
   - component: {fileID: 1820990909362985008}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise06EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,6 +258,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -250,6 +270,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

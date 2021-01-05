@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 8171246829431239443}
   - component: {fileID: 6352701144067161316}
   - component: {fileID: 4582886037784189775}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise03EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,6 +120,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -131,6 +132,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -155,7 +157,8 @@ GameObject:
   - component: {fileID: 1610983129221880969}
   - component: {fileID: 4921436313476950476}
   - component: {fileID: 7616931505625441303}
-  m_Layer: 0
+  - component: {fileID: 701441350}
+  m_Layer: 12
   m_Name: Brick00RedGreenTiling2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,6 +201,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -209,6 +213,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -234,6 +239,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12, y: 86, z: 42}
   m_Center: {x: 0, y: 43, z: 0}
+--- !u!208 &701441350
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114819727097149189}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 6.0000005, y: 43.000004, z: 21.000002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 43.000004, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2446238440831161261
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +266,7 @@ GameObject:
   - component: {fileID: 7720832363917749929}
   - component: {fileID: 5553641012959889643}
   - component: {fileID: 7141166985070268862}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise03EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,6 +309,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -299,6 +321,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -322,7 +345,7 @@ GameObject:
   - component: {fileID: 6587440493641813051}
   - component: {fileID: 373073272261903117}
   - component: {fileID: 831749381837389919}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise04Brown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,6 +388,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -376,6 +400,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -399,7 +424,7 @@ GameObject:
   - component: {fileID: 7845582328487338054}
   - component: {fileID: 2136634373005964632}
   - component: {fileID: 5578948245667111000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RoofConcretebare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,6 +467,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -453,6 +479,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

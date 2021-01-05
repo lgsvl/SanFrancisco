@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 5996592682112812357}
   - component: {fileID: 2011709549954293377}
   - component: {fileID: 1877288437721943878}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window07EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,6 +120,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -131,6 +132,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -154,7 +156,7 @@ GameObject:
   - component: {fileID: 2818284507022087644}
   - component: {fileID: 3985600199438920217}
   - component: {fileID: 7986561482221637826}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window07EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,6 +199,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -208,6 +211,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -232,7 +236,8 @@ GameObject:
   - component: {fileID: 6373078074084572188}
   - component: {fileID: 7592061301048731207}
   - component: {fileID: 2496974128003023260}
-  m_Layer: 0
+  - component: {fileID: 2137648947}
+  m_Layer: 12
   m_Name: Brick01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,6 +280,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -286,6 +292,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -311,6 +318,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 27.14142, y: 9.25, z: 29.14142}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!208 &2137648947
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2956490960372390890}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 13.571001, y: 4.625, z: 14.571001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &5540396989896579307
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +345,7 @@ GameObject:
   - component: {fileID: 5554247342713707465}
   - component: {fileID: 4346928759021145815}
   - component: {fileID: 7825526441328286679}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RoofConcretebare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,6 +388,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -376,6 +400,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -399,7 +424,7 @@ GameObject:
   - component: {fileID: 4270217028867000097}
   - component: {fileID: 1797114482061491072}
   - component: {fileID: 485875042449373376}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door02Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,6 +467,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -453,6 +479,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

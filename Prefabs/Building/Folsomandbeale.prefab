@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 4269522048714345920}
   - component: {fileID: 5192209966865663415}
   - component: {fileID: 4926476028535223219}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window01ATiling_5EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,6 +123,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -134,6 +135,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -157,7 +159,7 @@ GameObject:
   - component: {fileID: 8480913627625690826}
   - component: {fileID: 325179239484840538}
   - component: {fileID: 8997749568832970146}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door02EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,6 +202,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -211,6 +214,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -235,7 +239,8 @@ GameObject:
   - component: {fileID: 1377852558557002334}
   - component: {fileID: 2389347190231452576}
   - component: {fileID: 8027163989649373658}
-  m_Layer: 0
+  - component: {fileID: 865087052}
+  m_Layer: 12
   m_Name: Brick05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,6 +283,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -289,6 +295,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -314,6 +321,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 50.28284, y: 18, z: 70.28284}
   m_Center: {x: 0, y: 9, z: 0.0000019073486}
+--- !u!208 &865087052
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3211328850464485040}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 25.141, y: 9, z: 35.141003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 9, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3561504383665427606
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +348,7 @@ GameObject:
   - component: {fileID: 8451003442471471200}
   - component: {fileID: 4437405401291314084}
   - component: {fileID: 4355724649205219939}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window07EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,6 +391,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -379,6 +403,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -402,7 +427,7 @@ GameObject:
   - component: {fileID: 8487614344998022023}
   - component: {fileID: 81358442782555605}
   - component: {fileID: 8400236683237066217}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door02EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,6 +470,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -456,6 +482,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -479,7 +506,7 @@ GameObject:
   - component: {fileID: 100026202648926457}
   - component: {fileID: 1238597500019894076}
   - component: {fileID: 5236037943632879079}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window07EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,6 +549,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -533,6 +561,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -556,7 +585,7 @@ GameObject:
   - component: {fileID: 3946287825778980247}
   - component: {fileID: 7319306238991075207}
   - component: {fileID: 6384728089862063903}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window01ATiling_5EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,6 +628,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -610,6 +640,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -633,7 +664,7 @@ GameObject:
   - component: {fileID: 7740409135623870188}
   - component: {fileID: 1886083769362121714}
   - component: {fileID: 5397011411041490674}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RoofConcretebare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,6 +707,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -687,6 +719,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

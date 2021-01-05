@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132270027099764}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1399.9694, y: 10.087997, z: 982.9656}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -44,6 +44,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4957839979680028}
   - component: {fileID: 541233296492135479}
+  - component: {fileID: 1303692365}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -78,6 +79,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 34.180397, y: 88.25, z: 20.91854}
   m_Center: {x: 3.6340714, y: 44.125, z: -0.051800728}
+--- !u!208 &1303692365
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233382641267660}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 17.090199, y: 44.125, z: 10.45927}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 3.6340714, y: 44.125, z: -0.051800728}
+  m_TimeToStationary: 0.5
 --- !u!1 &1330793844009730
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +138,7 @@ GameObject:
   - component: {fileID: 2983662520889336818}
   - component: {fileID: 5164476122216107529}
   - component: {fileID: 8435495909592862451}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,6 +181,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -175,6 +193,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -197,6 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5671050397467745559}
   - component: {fileID: 8866392660643911696}
+  - component: {fileID: 20686151}
   m_Layer: 12
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -231,6 +251,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 34.180397, y: 88.25, z: 20.91854}
   m_Center: {x: 3.6340714, y: 44.125, z: -0.051800728}
+--- !u!208 &20686151
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3417414964747868478}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 17.090199, y: 44.125, z: 10.45927}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 3.6340714, y: 44.125, z: -0.051800728}
+  m_TimeToStationary: 0.5
 --- !u!1 &3668735315860795440
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +278,7 @@ GameObject:
   - component: {fileID: 5810988204387037578}
   - component: {fileID: 8407723544681981045}
   - component: {fileID: 7851177636372373693}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Roofpanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,6 +321,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -296,6 +333,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -318,6 +356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7201480626637358863}
   - component: {fileID: 3261128457602606550}
+  - component: {fileID: 432402625}
   m_Layer: 12
   m_Name: Collider (2)
   m_TagString: Untagged
@@ -352,3 +391,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 34.180397, y: 88.25, z: 20.91854}
   m_Center: {x: 3.6340714, y: 44.125, z: -0.051800728}
+--- !u!208 &432402625
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4817749397894281060}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 17.090199, y: 44.125, z: 10.45927}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 3.6340714, y: 44.125, z: -0.051800728}
+  m_TimeToStationary: 0.5

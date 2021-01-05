@@ -81,7 +81,8 @@ GameObject:
   - component: {fileID: 2701336973096164191}
   - component: {fileID: 8914484399837540598}
   - component: {fileID: 57068114100935370}
-  m_Layer: 0
+  - component: {fileID: 1766003223}
+  m_Layer: 12
   m_Name: Brick04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,6 +125,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -135,6 +137,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -186,6 +189,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 25.156952, y: 24.25, z: 5.303917}
   m_Center: {x: -14.992538, y: 12.125, z: 29.918743}
+--- !u!208 &1766003223
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750045546580987121}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 27.571001, y: 12.125001, z: 32.571003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 12.125001, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1572176639952536518
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +216,7 @@ GameObject:
   - component: {fileID: 5652873945632505159}
   - component: {fileID: 3358138558337135568}
   - component: {fileID: 2211756880582942800}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window01AEmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,6 +259,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -251,6 +271,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -274,7 +295,7 @@ GameObject:
   - component: {fileID: 5301787672988779847}
   - component: {fileID: 5588259991113047159}
   - component: {fileID: 3002926131430207635}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window06EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,6 +338,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -328,6 +350,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -351,7 +374,7 @@ GameObject:
   - component: {fileID: 2338499157000929433}
   - component: {fileID: 5812718507925211711}
   - component: {fileID: 7320878706947096332}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window01AEmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,6 +417,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -405,6 +429,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -428,7 +453,7 @@ GameObject:
   - component: {fileID: 2319924766329397410}
   - component: {fileID: 5277295371449324058}
   - component: {fileID: 4330271431671766060}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window06EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,6 +496,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -482,6 +508,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -505,7 +532,7 @@ GameObject:
   - component: {fileID: 9081860605579285584}
   - component: {fileID: 9081860605578482802}
   - component: {fileID: 9081860605577516722}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Folsom11:roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,6 +575,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -559,6 +587,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

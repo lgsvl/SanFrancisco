@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4806975878822188}
   - component: {fileID: 65594634124885112}
+  - component: {fileID: 526819597}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -44,6 +45,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 20.7, y: 62.75, z: 17.3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!208 &526819597
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392112789306950}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 10.35, y: 31.375, z: 8.65}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1567041770471684
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,7 +116,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815199842496448}
-  m_LocalRotation: {x: -0, y: 0.4613009, z: -0, w: 0.8872438}
+  m_LocalRotation: {x: 0, y: 0.46129963, z: 0, w: 0.88724446}
   m_LocalPosition: {x: 887.0289, y: 10.178127, z: 848.9598}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -107,7 +124,7 @@ Transform:
   - {fileID: 4806975878822188}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 54.942, z: 0}
 --- !u!1 &4726701830657151979
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +136,7 @@ GameObject:
   - component: {fileID: 2582163383326036561}
   - component: {fileID: 567265630934730670}
   - component: {fileID: 2271385860704650086}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Roofpanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,6 +179,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -173,6 +191,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -196,7 +215,7 @@ GameObject:
   - component: {fileID: 7723258588318027816}
   - component: {fileID: 6408675094101853965}
   - component: {fileID: 2018718400874564267}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HighRise01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,6 +258,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -250,6 +270,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

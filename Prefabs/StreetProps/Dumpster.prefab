@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6500000}
-  - component: {fileID: 1869714160}
+  - component: {fileID: 2998140385990004775}
   m_Layer: 0
   m_Name: Dumpster
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3272882, y: 1.511816, z: 1.6439679}
   m_Center: {x: 0.004991472, y: -0.30990887, z: 0.49146426}
---- !u!208 &1869714160
+--- !u!208 &2998140385990004775
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

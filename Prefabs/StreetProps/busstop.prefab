@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 65110374815926692}
-  - component: {fileID: 1394397757}
+  - component: {fileID: 2822322515389072540}
   m_Layer: 12
   m_Name: busstop
   m_TagString: Obstacle
@@ -95,7 +95,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.477823, y: 1.2827588, z: 2.7486033}
   m_Center: {x: 0.0029398217, y: 0.005528393, z: -0.005396369}
---- !u!208 &1394397757
+--- !u!208 &2822322515389072540
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

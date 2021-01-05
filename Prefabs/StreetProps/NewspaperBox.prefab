@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33355595325700986}
   - component: {fileID: 23176296131086170}
   - component: {fileID: 65179566171867066}
-  - component: {fileID: 1394402392}
+  - component: {fileID: 4571458643234651076}
   m_Layer: 12
   m_Name: NewspaperBox
   m_TagString: Obstacle
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8097254, y: 1.4985838, z: 0.4133022}
   m_Center: {x: 0.00036883354, y: 0.7486794, z: 0.0000011175871}
---- !u!208 &1394402392
+--- !u!208 &4571458643234651076
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

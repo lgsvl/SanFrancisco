@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010471991394662}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1130.4668, y: 10.252171, z: 983.0391}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -81,6 +81,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4606665927726330}
   - component: {fileID: 5744580790268791699}
+  - component: {fileID: 1720300022}
   m_Layer: 12
   m_Name: Collider
   m_TagString: Untagged
@@ -115,6 +116,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0124985, y: 0.9543736, z: 0.9999992}
   m_Center: {x: 0.00039551224, y: 0.03071038, z: -3.1527437e-12}
+--- !u!208 &1720300022
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786691889106856}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.50624925, y: 0.4771868, z: 0.4999996}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.00039551224, y: 0.03071038, z: -3.1527437e-12}
+  m_TimeToStationary: 0.5
 --- !u!1 &576648804361689652
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1834067412082466370}
   - component: {fileID: 7128229505544980065}
+  - component: {fileID: 1465271312}
   m_Layer: 12
   m_Name: Collider (2)
   m_TagString: Untagged
@@ -159,6 +177,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0015802, y: 0.9552294, z: 0.9999997}
   m_Center: {x: -0.0007901321, y: 0.034223724, z: -3.9527526e-10}
+--- !u!208 &1465271312
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576648804361689652}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5007901, y: 0.4776147, z: 0.49999985}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.0007901321, y: 0.034223724, z: -3.9527526e-10}
+  m_TimeToStationary: 0.5
 --- !u!1 &711623546531353917
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7580092978066076993}
   - component: {fileID: 5247584250561503549}
+  - component: {fileID: 1739865913}
   m_Layer: 12
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -203,6 +238,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.95705605, z: 0.99999934}
   m_Center: {x: 0, y: 0.033086076, z: 0}
+--- !u!208 &1739865913
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711623546531353917}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.47852802, z: 0.49999967}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.033086076, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &806836002204343108
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +265,7 @@ GameObject:
   - component: {fileID: 7601870281808517886}
   - component: {fileID: 5581576503231500033}
   - component: {fileID: 6138263578123537353}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Roofpanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,6 +308,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -268,6 +320,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -291,7 +344,7 @@ GameObject:
   - component: {fileID: 362503759157161440}
   - component: {fileID: 6038826411542083439}
   - component: {fileID: 7125798078773046580}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Brick01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,6 +387,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -345,6 +399,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -368,7 +423,7 @@ GameObject:
   - component: {fileID: 4080652265696044569}
   - component: {fileID: 1141331837489805265}
   - component: {fileID: 3595847590850956690}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window04TilingXEmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,6 +466,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -422,6 +478,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -445,7 +502,7 @@ GameObject:
   - component: {fileID: 7086961869172311354}
   - component: {fileID: 6565316155817515850}
   - component: {fileID: 6648481817129312223}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Window04TilingXEmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,6 +545,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -499,6 +557,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -522,7 +581,7 @@ GameObject:
   - component: {fileID: 771500400910753324}
   - component: {fileID: 2227110271780853960}
   - component: {fileID: 8243604058094457542}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door09Tiliing_5EmissionOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -565,6 +624,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -576,6 +636,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -599,7 +660,7 @@ GameObject:
   - component: {fileID: 1609601743005923786}
   - component: {fileID: 7981293385492173952}
   - component: {fileID: 6930567239761527841}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door09Tiliing_5EmissionOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,6 +703,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -653,6 +715,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -675,6 +738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7457669840923603253}
   - component: {fileID: 4074322780614820823}
+  - component: {fileID: 208579145}
   m_Layer: 12
   m_Name: Collider (3)
   m_TagString: Untagged
@@ -709,3 +773,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.9578381, z: 1}
   m_Center: {x: 0, y: 0.03221125, z: 0}
+--- !u!208 &208579145
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7848291866585024216}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.47891906, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.03221125, z: 0}
+  m_TimeToStationary: 0.5
